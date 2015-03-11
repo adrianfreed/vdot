@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -48,8 +48,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 92.0, 241.0, 150.0, 51.0 ],
-					"text" : "/delay 440. \n/bang ",
+					"patching_rect" : [ 110.0, 208.5, 150.0, 51.0 ],
+					"text" : "/delay : 1077.,\n/bang",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -139,7 +139,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "FullPacket", "" ],
-					"patching_rect" : [ 247.0, 131.0, 72.0, 30.0 ]
+					"patching_rect" : [ 284.0, 139.0, 72.0, 30.0 ]
 				}
 
 			}

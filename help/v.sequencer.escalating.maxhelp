@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 4
+			"minor" : 1,
+			"revision" : 9,
+			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 35.0, 44.0, 1510.0, 747.0 ],
+		"rect" : [ 256.0, 50.0, 1103.0, 747.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 20.0,
@@ -29,13 +30,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"int" : 1,
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 93.0, 622.0, 41.0, 32.0 ]
+					"patching_rect" : [ 560.0, 514.0, 41.0, 32.0 ]
 				}
 
 			}
@@ -43,12 +43,13 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"frgb" : 0.0,
 					"id" : "obj-18",
 					"linecount" : 10,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 78.0, 469.0, 145.0 ],
+					"patching_rect" : [ 106.227234, 7.0, 469.0, 141.0 ],
 					"text" : "Escalating Looper \n                                                          Adrian Freed 2010, 2012\n\nTo celebrate memories of a friend and colleague\nKim Flint, an energitic and enthusiastic \nadvocate and inventor of looping devices (http://www.loopersdelight.com/loop.html);\nand the works of John Martyn an early pioneer in the creation of rhythmic patterns using echoplex feedback loops: http://www.youtube.com/watch?v=VYCG5wZ9op8\n\n             run the mouse along the keyboard --------------------------->"
 				}
 
@@ -103,8 +104,9 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 6,
-							"minor" : 0,
-							"revision" : 4
+							"minor" : 1,
+							"revision" : 9,
+							"architecture" : "x86"
 						}
 ,
 						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
@@ -205,26 +207,21 @@
 								}
 
 							}
- ],
-						"dependency_cache" : [ 							{
-								"name" : "o.message.mxo",
-								"type" : "iLaX"
-							}
  ]
 					}
 ,
 					"patching_rect" : [ 65.0, 382.0, 75.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
-						"tags" : "",
 						"default_fontname" : "Arial",
 						"default_fontsize" : 20.0,
-						"fontname" : "Arial",
 						"description" : "",
-						"globalpatchername" : "",
+						"digest" : "",
 						"fontface" : 0,
-						"fontsize" : 20.0
+						"fontname" : "Arial",
+						"fontsize" : 20.0,
+						"globalpatchername" : "",
+						"tags" : ""
 					}
 ,
 					"text" : "p funky"
@@ -252,7 +249,7 @@
 					"name" : "v.midisynth.maxpat",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 663.0, 334.0, 175.0 ]
+					"patching_rect" : [ 482.0, 555.0, 334.0, 175.0 ]
 				}
 
 			}
@@ -291,8 +288,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.727234, 240.892578, 618.0, 99.0 ],
-					"text" : "/interval 200 \n/pitch 62 \"p\" \"p\" 54 55 56 57 58 59 60 \"p\" 61 \n/velocity 69 \"p\" \"p\" 16 64 21 69 26 69 69 \"p\" 26 \n/count 12 \n",
+					"patching_rect" : [ 31.727234, 240.892578, 618.0, 96.0 ],
+					"text" : "/interval : 100,\n/pitch : [61, 53, 54, 55, 60, 59, 58, 58, 48, 49, 59, 60],\n/velocity : [53, 58, 7, 58, 84, 84, 7, 66, 58, 7, 82, 84],\n/count",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
@@ -434,15 +431,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "v.midisynth.maxpat",
-				"bootpath" : "/Users/adrian/vdot/Synthesis",
-				"patcherrelativepath" : "../Synthesis",
+				"bootpath" : "/Users/adrian2013/Documents/Max/Packages/vdot/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "v.sequence.escalating.maxpat",
-				"bootpath" : "/Users/adrian/vdot/sequencers",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/adrian2013/Documents/Max/Packages/vdot/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

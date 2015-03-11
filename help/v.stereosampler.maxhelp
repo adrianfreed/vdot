@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -29,6 +29,20 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"id" : "obj-9",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 54.0, 92.0, 160.0, 16.0 ],
+					"text" : "60. 60. 0. 0. 0. 0. 1. 0. 0. 1. 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-7",
@@ -52,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 630.0, 148.0, 150.0, 20.0 ],
+					"patching_rect" : [ 628.5, 81.0, 150.0, 20.0 ],
 					"text" : "stop"
 				}
 
@@ -123,7 +137,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 572.0, 299.0, 150.0, 100.0 ],
+					"patching_rect" : [ 574.0, 352.0, 150.0, 100.0 ],
 					"text" : "/pitch/original 60. \n/pitch/desired 60 \n/left/attack 1. 50. 0.5 \n/right/attack 4. 60. 0.5 \n/left/decay 400. 0.5 \n/right/decay 600. 0.7 \n/length 300. ",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
@@ -137,7 +151,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 683.0, 137.0, 41.0, 41.0 ]
+					"patching_rect" : [ 683.0, 110.0, 41.0, 41.0 ]
 				}
 
 			}
@@ -185,31 +199,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 34.0, 18.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 33.0, 43.0, 59.0, 20.0 ],
-					"text" : "fullspeed"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
@@ -228,7 +217,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 72.0, 187.0, 631.0, 60.0 ]
+					"patching_rect" : [ 72.0, 187.0, 708.0, 66.0 ]
 				}
 
 			}
@@ -256,7 +245,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-2", 0 ]
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -265,16 +254,7 @@
 					"destination" : [ "obj-1", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-3", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-5", 0 ]
+					"source" : [ "obj-9", 0 ]
 				}
 
 			}
@@ -282,7 +262,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "v.stereosampler.maxpat",
 				"bootpath" : "/Users/adrian2013/Documents/Max/Packages/vdot/patchers/players",
-				"patcherrelativepath" : ".",
+				"patcherrelativepath" : "../patchers/players",
 				"type" : "JSON",
 				"implicit" : 1
 			}
