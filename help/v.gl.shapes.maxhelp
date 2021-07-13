@@ -60,7 +60,7 @@
 					"id" : "obj-7",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "v.gl.maxpat",
+					"name" : "v.gl.shapes.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
@@ -213,7 +213,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "v.gl.maxpat",
+				"name" : "v.gl.shapes.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/vdot/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -235,8 +235,8 @@
 			}
 , 			{
 				"name" : "o.gl.shapes.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/o.gl/patchers/helpers",
-				"patcherrelativepath" : "../../o.gl/patchers/helpers",
+				"bootpath" : "~/Documents/Max 8/Packages/vdot/patchers",
+				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -248,8 +248,8 @@
 			}
 , 			{
 				"name" : "o.gl.platohelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/o.gl/patchers/helpers",
-				"patcherrelativepath" : "../../o.gl/patchers/helpers",
+				"bootpath" : "~/Documents/Max 8/Packages/vdot/patchers/helpers/ogllhelpers",
+				"patcherrelativepath" : "../patchers/helpers/ogllhelpers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -262,8 +262,8 @@
 			}
 , 			{
 				"name" : "o.gl.texthelper.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/o.gl/patchers",
-				"patcherrelativepath" : "../../o.gl/patchers",
+				"bootpath" : "~/Documents/Max 8/Packages/vdot/patchers/helpers/ogllhelpers",
+				"patcherrelativepath" : "../patchers/helpers/ogllhelpers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

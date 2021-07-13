@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 644.0, 79.0, 689.0, 729.0 ],
+		"rect" : [ 308.0, 146.0, 689.0, 729.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -42,13 +42,11 @@
 				"box" : 				{
 					"fontface" : 0,
 					"id" : "obj-3",
-					"linecount" : 4,
 					"maxclass" : "o.display",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 260.0, 608.0, 150.0, 72.0 ],
-					"text" : "/bass : 0.4181,\n/bell : 0.563376,\n/wood : 0.0184757,\n/piano : 4.86136e-05"
+					"patching_rect" : [ 214.0, 603.0, 150.0, 33.0 ]
 				}
 
 			}
@@ -61,35 +59,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 233.0, 555.0, 55.0, 22.0 ],
+					"patching_rect" : [ 214.0, 560.5, 55.0, 22.0 ],
 					"text" : "o.collect"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"color" : [ 1.0, 0.890196, 0.090196, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 545.0, 709.0, 57.0, 19.0 ],
-					"text" : "uc_license"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"data" : [ 593, "png", "IBkSG0fBZn....PCIgDQRA...zF....LHX....vFnS+e....DLmPIQEBHf.B7g.YHB..BfPRDEDU3wY6bEsiCCBCKLc+++xbOwItcqkVHN1oGVZZRSCWZbLgNfUp0Z01HU3K1cfMLqTJC+N8dqOJZ2kjQs0Cy7Sk2qDqaeuV6esBIWssWky6bs9Oy6qO8gH.RtmAn5O2k2Yb0SWSalKVuE2KffyYwrIBm0++DmmJZpDLx.NpFFBG8epo4IVovKR7deHaImPEMTPsfLpYfdDfKZQ31Tv8FIBwoolyvSDsKyLhCOxxcftdVDIngIZnCNLRBXk3QchHOsZQQUFHTQSsZaqzeXlvQeJ+Qdyi7ZEYBY3hlm2brpqwdXc5NMy3GDVEQOrOEQSgZay1GTHASBmlY3CFn3mQBHMQyqa1HqqofKyLxNMEd.4U.qg4kY3wHwrKfqJftn4gaajHfHfybxTzEMD3ouzORHZYq1F6GYQBQKRb2.thaMAYDsUcaG0d0csy.YDMEghtLyDSzxVsMVPJQyLeEtUbJp5xLavlUMaY5n1bndBO5e+xogbsthpsHfJ2KGdpY73hfjiQbGc6tB7lix9jflOH2DQ1XL1hVBwVzRH1hVBwVzRH1hVBws+KoX0mPXzuH.5spcV4um2ScZ0Z8mWdidNQehZP0+QFaNi6gCOVJkTtmAabiLgqEWP7O1P+6uC5G0ITBWi6mxgtnGCEMTCAzPV2bosQfXrpBzVZldtQu6oxF+i3b+CFmP7MQ+TMlEbQ3RG.....IUjSD4pPfIH" ],
-					"embed" : 1,
-					"id" : "obj-2",
-					"maxclass" : "fpic",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "jit_matrix" ],
-					"patching_rect" : [ 536.0, 642.0, 109.0, 48.0 ]
 				}
 
 			}
@@ -918,7 +889,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 427.0, 557.0, 40.0, 19.0 ],
+					"patching_rect" : [ 439.0, 533.0, 40.0, 19.0 ],
 					"text" : "change"
 				}
 
@@ -2235,7 +2206,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 412.0, 603.0, 132.0, 29.0 ],
+					"patching_rect" : [ 407.5, 639.5, 132.0, 29.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
@@ -2255,7 +2226,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 381.0, 557.0, 102.0, 29.0 ],
+					"patching_rect" : [ 381.0, 602.0, 102.0, 29.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"tricolor" : [ 0.75, 0.75, 0.75, 1.0 ],
 					"triscale" : 0.9
@@ -2392,12 +2363,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-27",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 12.0, 18.0, 506.0, 33.0 ],
-					"text" : "RBF Radial Basis Function Interpolation Weight Synthesis Adrian Freed, 2005-2014. Version 1.4  Copyright UC Regents. All Rights Reserved. "
+					"patching_rect" : [ 12.0, 18.0, 506.0, 47.0 ],
+					"text" : "RBF Radial Basis Function Interpolation Weight Synthesis \nAdrian Freed, 2005-2014. Version 1.4 \nCopyright UC Regents. All Rights Reserved. "
 				}
 
 			}
@@ -2668,6 +2639,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
+					"midpoints" : [ 193.5, 507.0, 223.5, 507.0 ],
 					"source" : [ "obj-25", 1 ]
 				}
 
@@ -2704,6 +2676,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 1 ],
 					"hidden" : 1,
+					"midpoints" : [ 448.5, 579.0, 279.0, 579.0, 279.0, 516.0, 200.5, 516.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
@@ -2712,7 +2685,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "rbf.js",
 				"bootpath" : "~/Documents/Max 8/Packages/vdot/jsui",
-				"patcherrelativepath" : "./jsui",
+				"patcherrelativepath" : "../jsui",
 				"type" : "TEXT",
 				"implicit" : 1
 			}

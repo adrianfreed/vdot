@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 212.0, 56.0, 1200.0, 724.0 ],
+		"rect" : [ 206.0, 79.0, 1200.0, 724.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 20.0,
@@ -215,8 +215,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "FullPacket" ],
-					"patching_rect" : [ 20.0, 543.0, 174.0, 31.0 ],
-					"text" : "o.pak /delay /bang"
+					"patching_rect" : [ 20.0, 543.0, 182.0, 31.0 ],
+					"text" : "o.pack /delay /bang"
 				}
 
 			}
@@ -522,7 +522,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 591.0, 336.0, 129.0, 53.0 ],
-					"text" : "473794.513018"
+					"text" : "39656.447796"
 				}
 
 			}
@@ -1123,8 +1123,8 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "af.bpatcherresize.maxpat",
-				"bootpath" : "~/Documents/Max 8/Packages/vdot/patchers",
-				"patcherrelativepath" : ".",
+				"bootpath" : "~/Documents/Max 8/Packages/vdot/patchers/helpers",
+				"patcherrelativepath" : "./helpers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1140,7 +1140,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.pak.mxo",
+				"name" : "o.pack.mxo",
 				"type" : "iLaX"
 			}
 , 			{

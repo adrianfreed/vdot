@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 256.0, 50.0, 1103.0, 747.0 ],
+		"rect" : [ 89.0, 82.0, 860.0, 621.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 20.0,
@@ -40,13 +40,41 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 6.0, 25.0, 91.0, 31.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 0,
+					"id" : "obj-7",
+					"linecount" : 4,
+					"maxclass" : "o.compose",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 6.0, 68.0, 478.0, 62.0 ],
+					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 105, 110, 116, 101, 114, 118, 97, 108, 0, 0, 0, 44, 105, 0, 0, 0, 0, 0, 120, 0, 0, 0, 72, 47, 112, 105, 116, 99, 104, 0, 0, 44, 105, 115, 115, 105, 115, 105, 115, 115, 105, 105, 115, 105, 0, 0, 0, 0, 0, 0, 51, 112, 0, 0, 0, 112, 0, 0, 0, 0, 0, 0, 51, 112, 0, 0, 0, 0, 0, 0, 53, 112, 0, 0, 0, 112, 0, 0, 0, 0, 0, 0, 48, 0, 0, 0, 51, 112, 0, 0, 0, 0, 0, 0, 60, 0, 0, 0, 76, 47, 118, 101, 108, 111, 99, 105, 116, 121, 0, 0, 0, 44, 105, 115, 115, 105, 115, 105, 115, 115, 105, 105, 115, 105, 0, 0, 0, 0, 0, 0, 71, 112, 0, 0, 0, 112, 0, 0, 0, 0, 0, 0, 57, 112, 0, 0, 0, 0, 0, 0, 103, 112, 0, 0, 0, 112, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 75, 112, 0, 0, 0, 0, 0, 0, 55, 0, 0, 0, 16, 47, 99, 111, 117, 110, 116, 0, 0, 44, 105, 0, 0, 0, 0, 0, 12 ],
+					"saved_bundle_length" : 216,
+					"text" : "/interval : 120,\n/pitch : [51, \"p\", \"p\", 51, \"p\", 53, \"p\", \"p\", 48, 51, \"p\", 60],\n/velocity : [71, \"p\", \"p\", 57, \"p\", 103, \"p\", \"p\", 33, 75, \"p\", 55],\n/count : 12"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "gswitch",
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 560.0, 514.0, 41.0, 32.0 ]
+					"patching_rect" : [ 322.0, 350.0, 41.0, 32.0 ]
 				}
 
 			}
@@ -55,205 +83,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-18",
-					"linecount" : 10,
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 106.227233999999996, 7.0, 469.0, 141.0 ],
-					"text" : "Escalating Looper \n                                                          Adrian Freed 2010, 2012\n\nTo celebrate memories of a friend and colleague\nKim Flint, an energitic and enthusiastic \nadvocate and inventor of looping devices (http://www.loopersdelight.com/loop.html);\nand the works of John Martyn an early pioneer in the creation of rhythmic patterns using echoplex feedback loops: http://www.youtube.com/watch?v=VYCG5wZ9op8\n\n             run the mouse along the keyboard --------------------------->"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-5",
-					"maxclass" : "gswitch",
-					"numinlets" : 3,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 993.0, 322.0, 41.0, 32.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 20.0,
-					"id" : "obj-20",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1005.0, 63.0, 53.0, 31.0 ],
-					"text" : "pack"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 66.0, 356.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 20.0,
-					"id" : "obj-13",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patcher" : 					{
-						"fileversion" : 1,
-						"appversion" : 						{
-							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
-							"architecture" : "x64",
-							"modernui" : 1
-						}
-,
-						"classnamespace" : "box",
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
-						"bglocked" : 0,
-						"openinpresentation" : 0,
-						"default_fontsize" : 20.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"gridonopen" : 1,
-						"gridsize" : [ 15.0, 15.0 ],
-						"gridsnaponopen" : 1,
-						"objectsnaponopen" : 1,
-						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
-						"lefttoolbarpinned" : 0,
-						"toptoolbarpinned" : 0,
-						"righttoolbarpinned" : 0,
-						"bottomtoolbarpinned" : 0,
-						"toolbars_unpinned_last_save" : 0,
-						"tallnewobj" : 0,
-						"boxanimatetime" : 200,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"description" : "",
-						"digest" : "",
-						"tags" : "",
-						"style" : "",
-						"subpatcher_template" : "",
-						"assistshowspatchername" : 0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-3",
-									"index" : 2,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 378.0, 51.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-2",
-									"index" : 1,
-									"maxclass" : "outlet",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 56.0, 232.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"comment" : "",
-									"id" : "obj-1",
-									"index" : 1,
-									"maxclass" : "inlet",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 58.0, 52.0, 25.0, 25.0 ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontface" : 0,
-									"fontname" : "Arial",
-									"fontsize" : 20.0,
-									"id" : "obj-12",
-									"linecount" : 4,
-									"maxclass" : "o.message",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 100.0, 467.0, 96.0 ],
-									"text" : "/interval 120 \n/pitch 51 \"p\" \"p\" 51 \"p\" 53 \"p\" \"p\" 48 51 \"p\" 60 \n/velocity 71 \"p\" \"p\" 57 \"p\" 103 \"p\" \"p\" 33 75 \"p\" 95 \n/count 12 ",
-									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-								}
-
-							}
- ],
-						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 0 ],
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-2", 0 ],
-									"source" : [ "obj-12", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-12", 1 ],
-									"source" : [ "obj-3", 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"patching_rect" : [ 65.0, 382.0, 75.0, 31.0 ],
-					"saved_object_attributes" : 					{
-						"description" : "",
-						"digest" : "",
-						"fontsize" : 20.0,
-						"globalpatchername" : "",
-						"tags" : ""
-					}
-,
-					"text" : "p funky"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 20.0,
-					"id" : "obj-10",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 1005.0, 13.0, 83.0, 31.0 ],
-					"text" : "notein 0"
+					"patching_rect" : [ 492.22723400000001, 29.0, 343.999999999999943, 167.0 ],
+					"text" : "Escalating Looper \n                                                          Adrian Freed 2010, 2012\n\nTo celebrate memories of a friend and colleague\nKim Flint, an energitic and enthusiastic \nadvocate and inventor of looping devices (http://www.loopersdelight.com/loop.html);\nand the works of John Martyn an early pioneer in the creation of rhythmic patterns using echoplex feedback loops: http://www.youtube.com/watch?v=VYCG5wZ9op8\n\n   <=========== run the mouse along the keyboard"
 				}
 
 			}
@@ -271,7 +106,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 482.0, 555.0, 334.0, 175.0 ],
+					"patching_rect" : [ 244.0, 407.0, 334.0, 175.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -292,76 +127,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "FullPacket", "" ],
-					"patching_rect" : [ 26.0, 434.0, 346.0, 184.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-6",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 32.0, 214.0, 20.0, 20.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 20.0,
-					"id" : "obj-2",
-					"linecount" : 4,
-					"maxclass" : "o.message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.727233999999999, 240.892577999999986, 618.0, 96.0 ],
-					"text" : "/interval : 100,\n/pitch : [67, 43, 65, 64, 48, 65, 52, 67, 69, 62, 57, 59],\n/velocity : [40, 22, 33, 40, 27, 40, 33, 40, 40, 17, 40, 40],\n/count",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgcolor" : [ 0.545098, 0.85098, 0.592157, 1.0 ],
-					"bgmode" : 1,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-1",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "v.sequence.escalating.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "FullPacket", "" ],
-					"patching_rect" : [ 682.0, 99.0, 341.0, 204.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-19",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "v.midisynth.maxpat",
-					"numinlets" : 3,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 726.0, 374.0, 334.0, 175.0 ],
+					"patching_rect" : [ 6.0, 144.0, 346.0, 184.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -369,57 +135,8 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
+					"destination" : [ "obj-7", 0 ],
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 1 ],
-					"source" : [ "obj-1", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 1 ],
-					"source" : [ "obj-10", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-13", 0 ],
-					"source" : [ "obj-15", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"source" : [ "obj-2", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-1", 1 ],
-					"source" : [ "obj-20", 0 ]
 				}
 
 			}
@@ -432,15 +149,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-19", 0 ],
-					"source" : [ "obj-5", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
-					"source" : [ "obj-6", 0 ]
+					"destination" : [ "obj-8", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
@@ -453,14 +163,14 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "v.midisynth.maxpat",
+				"name" : "v.sequence.escalating.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/vdot/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "v.sequence.escalating.maxpat",
+				"name" : "v.midisynth.maxpat",
 				"bootpath" : "~/Documents/Max 8/Packages/vdot/patchers",
 				"patcherrelativepath" : "../patchers",
 				"type" : "JSON",
@@ -475,7 +185,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "o.message.mxo",
+				"name" : "o.compose.mxo",
 				"type" : "iLaX"
 			}
  ],
